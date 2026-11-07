@@ -10,6 +10,7 @@ Methods:
 - Found the statewide waves from the peaks in the statewide curve with `scipy`, and kept the four largest
 - For each county and wave, found the midpoint: the date by which half of that county's cases in the wave had been reported
 - Measured each county's distance from NYC with `geopandas`, and compared timing with distance using Spearman correlation and a robust (Theil-Sen) trend, cross-checked against peak dates
+- Built two interactive `folium` choropleth maps, saved in `maps/` to open in a browser: cumulative incidence by county with values on hover, and an animated map of weekly case rates
 
 Findings:
 - Only the first wave spread outward from NYC. In spring 2020 the typical county reached its midpoint 24 days after the city, about 9.5 days later for every 100 km of distance
@@ -20,8 +21,6 @@ Findings:
 <img src="img/wave_timing_maps.png" width="100%">
 
 <img src="img/heatmap_by_distance.png" width="100%">
-
-The `maps/` folder also has two interactive maps to open in a browser: cumulative incidence by county, with values on hover, and an animated map of weekly case rates.
 
 Run it:
 ```bash
