@@ -1,4 +1,4 @@
-# How COVID-19 Waves Travelled Across New York State, 2020–2023
+# How COVID-19 Waves Traveled Across New York State, 2020–2023
 
 Did each COVID-19 wave start in New York City and spread outward across the state? Using daily positive tests for all 62 counties from March 2020 to August 2023, I measured when each county reached the middle of each wave compared with NYC, and how that related to its distance from the city.
 
